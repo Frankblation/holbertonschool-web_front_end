@@ -2,6 +2,27 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    color: var(--text-color);
+    font-family:car(--font-family-base);
+}
+
+a {
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category, .section-tagline {
+    color: var(--color-primary);
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -13,23 +34,3 @@ html {
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-body, a {
-    color: var(--text-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-family-title);
-}
-
-.visually-hidden {
-    display: none;
-}
-
-.card-category, .section-tagline {
-    color: var(--color-primary);
-}

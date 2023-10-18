@@ -23,12 +23,13 @@ h1, h2, h3, h4, h5, h6 {
 .visually-hidden {
     display: none;
 }
-
-.card-category, .section-tagline, .section-header {
-    color: var(--color-primary);
-    text-align:var(--section-header-align);
+.section-header {
+    text-align: var(--section-header-align);
 }
 
+.card-category, .section-tagline {
+color: var(--color-primary);
+}
 :root {
     --color-primary: #d73953;
     --color-black: #090909;

@@ -26,10 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-category, .section-tagline, .section-header {
     color: var(--color-primary);
+    text-align:var(--section-header-align);
     font-family:var(--font-family-title);
     text-transform:var(--section-tagline-transform);
     font-weight:var(--font-weight-bold);
-    text-align:var(--section-header-align)
+
 }
 
 :root {
